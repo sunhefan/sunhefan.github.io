@@ -1,20 +1,49 @@
+
+@import url('https://fonts.googleapis.com/css?family=Quicksand&display=swap');
 body {
+
   margin: 30px auto;
   max-width: 1000px;
-  font-family: "Helvetica", "Arial", sans-serif;
+  font-family:'Quicksand', sans-serif;
   line-height: 1.5;
   padding: 30px 20px;
   text-align:center;
-  background-color:/*#B0E0E6*/#E3E3E3;
+  background-color:/*#B0E0E6*/#EAF2F8  ;
 }
 
+#nav1{
+
+    border:px solid #ccc;
+    border-bottom: none;
+    overflow: hidden;
+    font-size: 35px;
+    }
+
+#nav1 ul{
+        padding: 0;
+        margin: 0 auto;
+        list-style: none;
+        width: 17em;
+        overflow: hidden;
+        }
+
+
+
+#nav1 ul li a:hover{
+            background-color:#21618C;
+            }
+
+
+  #nav1 ul li a:active{
+                    color:#E7DD1A;
+                        }
 
 h1 {
   padding: 20px 0px 10px 0px;
 }
 
 a{
-  color: #69CBBB;
+  color: #A9CCE3;
   text-decoration: none;
 }
 /* Centers images */
@@ -31,5 +60,29 @@ portfolio entries */
 .portfolio-item {
 margin-top: 60px;
 padding: 40px;
-background-color: #f7f7f7;
+background-color: #FFFFFF;
 }
+
+ p{font-size: 15px;
+text-align: justify;
+padding-top: 50px;}
+
+
+#flow1{
+    width: 40%;
+    float: left;
+    margin-left: 4em;
+    margin-right: 4em;
+    }
+
+
+
+#flow2{
+    width:40%;
+    float: right;
+    margin-right: 2em;
+    }
+
+    footer{
+            clear: both;
+        }
