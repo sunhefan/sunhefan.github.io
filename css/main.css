@@ -37,7 +37,12 @@ body {
   #nav1 ul li a:active{
                     color:#E7DD1A;
                         }
-
+a h1:hover{
+    background-color:#21618C;
+}
+a h1:active{
+  color:#E7DD1A;
+}
 h1 {
   padding: 20px 0px 10px 0px;
 }
